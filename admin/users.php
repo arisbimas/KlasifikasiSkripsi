@@ -89,7 +89,7 @@ $users = query("SELECT * from tb_user");
                   <td><?= $u['email'] ?></td>
                   <td><?= $u['level'] ?></td>
                   <td>
-                  	<a  href="hapususer.php?id=<?= $u['id'] ?>" class="btn btn-danger" onclick="return confirm('Anda yakin ingin menghapus?')">Delete</a>
+                  	<a  href="hapususer.php?id=<?= $u['id'] ?>" class="btn btn-danger" onclick="return confirm('Anda yakin ingin menghapus?')">Hapus</a>
                   </td>
                 </tr>
 	            <?php endforeach ?>
